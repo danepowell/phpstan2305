@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb276497b0f0dd823c0431d15fe0c6e1",
+    "content-hash": "31146cd8010c33fc36feaf4f7bfac070",
     "packages": [
         {
             "name": "acquia/blt",
@@ -9361,6 +9361,43 @@
             ],
             "description": "Drupal extension and rules for PHPStan",
             "time": "2019-07-09T18:58:39+00:00"
+        },
+        {
+            "name": "mglaman/phpstan-drupal-deprecations",
+            "version": "0.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mglaman/phpstan-drupal-deprecations.git",
+                "reference": "a6d80b01269894f9d444bba75060def7b4df72ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal-deprecations/zipball/a6d80b01269894f9d444bba75060def7b4df72ba",
+                "reference": "a6d80b01269894f9d444bba75060def7b4df72ba",
+                "shasum": ""
+            },
+            "require": {
+                "mglaman/phpstan-drupal": "^0.11.1",
+                "phpstan/phpstan-deprecation-rules": "^0.11.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.11-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Glaman",
+                    "email": "nmd.matt@gmail.com"
+                }
+            ],
+            "description": "streamline configuring Drupal deprecation testing",
+            "time": "2019-02-07T14:33:00+00:00"
         },
         {
             "name": "mglaman/phpstan-junit",
